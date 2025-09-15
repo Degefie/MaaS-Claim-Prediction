@@ -1,7 +1,7 @@
 # train_model.R
 # Train an XGBoost model and save it to disk (xgboost + caret used)
 
-setwd("C:/Data_science_test")
+setwd("~/MaaS-Claim-Prediction")
 
 library(data.table)
 library(xgboost)
@@ -54,3 +54,4 @@ saveRDS(cols, file='model_cols.rds')
 
 
 cat('Model trained and saved: xgb_claim.model and model_cols.rds\n')
+
